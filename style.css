@@ -266,3 +266,91 @@ main {
   background-color: #333;
   color: #fff;
 }
+
+/* REVEIL */
+#reveil form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#reveil form input {
+  width: 40%;
+  height: 5vh;
+  font-size: 1em;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  transition: 0.5s;
+  margin: 2%;
+}
+
+#reveil form input:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#reveil form input:focus {
+  outline: none;
+}
+
+#reveil form button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 0.2em;
+  margin: 1%;
+  font-size: 1.5em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#reveil form button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#Alarmes {
+  height: 21vh;
+  overflow: auto;
+}
+
+#popUp {
+  display: none;
+  /* display: flex; */
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50vw;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: bisque;
+  z-index: 1;
+}
+
+#buttonPop {
+  cursor: pointer;
+  width: 40%;
+  height: 5vh;
+  font-size: 1em;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  transition: 0.5s;
+  margin: 2%;
+}
+
+#buttonPop:hover {
+  background-color: #333;
+  color: #fff;
+}
