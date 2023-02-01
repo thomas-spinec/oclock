@@ -195,3 +195,74 @@ main {
   /* list-style: none; */
   margin-right: 0.5em;
 }
+
+/* ***********************
+    MINUTEUR
+*********************** */
+
+#minuteur {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  overflow: auto;
+}
+
+#minuteur form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#numbersTimer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+#numbersTimer p {
+  margin: 0;
+}
+
+#numbersTimer input {
+  width: 10%;
+  height: 5vh;
+  font-size: 2em;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  transition: 0.5s;
+}
+
+#numbersTimer input:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#numbersTimer input:focus {
+  outline: none;
+}
+
+#minuteur button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 0.2em;
+  margin: 1%;
+  font-size: 1.5em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#minuteur button:hover {
+  background-color: #333;
+  color: #fff;
+}
