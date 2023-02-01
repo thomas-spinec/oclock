@@ -18,15 +18,8 @@ body {
 }
 
 a {
-  color: #fff;
-  cursor: pointer;
   text-decoration: none;
-  transition: 0.5s;
-}
-
-a:hover {
-  color: #fff;
-  text-decoration: underline;
+  cursor: pointer;
 }
 
 h1,
@@ -79,6 +72,11 @@ header {
   width: 100vw;
   height: 15vh;
   top: 0;
+}
+
+header a {
+  color: #333;
+  text-decoration: none;
 }
 
 header h1,
@@ -156,4 +154,20 @@ main {
 
 #lien a:hover {
   color: #fff;
+}
+
+/* ***********************
+    HORLOGE
+*********************** */
+
+#main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 50vh;
+}
+
+#horloge {
+  color: #fff;
+  height: 50vh;
 }
