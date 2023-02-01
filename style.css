@@ -1,0 +1,159 @@
+/* ***********************
+    Styles généraux
+*********************** */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.centrage {
+  width: 90%;
+  margin: 0 auto;
+}
+
+a {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.8em;
+}
+
+p {
+  margin: 0 0 1.5em 0;
+}
+
+/* ***********************
+    HEADER
+*********************** */
+
+header {
+  background-color: #fff;
+  color: #333;
+  position: fixed;
+  width: 100vw;
+  height: 15vh;
+  top: 0;
+}
+
+header h1,
+header p {
+  color: #333;
+  margin-top: 2%;
+}
+
+#header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* ***********************
+    FOOTER
+*********************** */
+
+footer {
+  background-color: #fff;
+  color: #333;
+  padding: 1em 0;
+  position: fixed;
+  width: 100vw;
+  height: 15vh;
+  bottom: 0;
+}
+
+#perso {
+  height: 12vh;
+  width: auto;
+}
+
+/* ***********************
+    MAIN
+*********************** */
+
+main {
+  margin-top: 15vh;
+  /* margin-bottom: 15vh; */
+}
+
+/* Les liens doivent être au centre de la page */
+#lien {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50vh;
+}
+
+#lien button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  padding: 1em;
+  font-size: 1.5em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#lien button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+#lien a {
+  color: #333;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+#lien a:hover {
+  color: #fff;
+}
