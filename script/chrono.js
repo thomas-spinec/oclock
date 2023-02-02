@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function loaded() {
   // reset par sécurité
   function resetDebut() {
     clearInterval(timesRunning);
-
+    timeChrono[0].style.display = "block";
     timeChrono[0].innerHTML = "00:00:00";
     timePlus = 0;
     timePaused = 0;

@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function loaded() {
+  let horloge = document.querySelector(".horloge");
   let numbersDiv = document.querySelector("#numbersTimer");
   let heureInput = document.querySelector("#hours");
   let minuteInput = document.querySelector("#minutes");
@@ -61,8 +62,13 @@ document.addEventListener("DOMContentLoaded", function loaded() {
       let hours = Math.floor(time / 3600);
       let minutes = Math.floor((time - hours * 3600) / 60);
       let seconds = time - hours * 3600 - minutes * 60;
+      // rajout des 0
+      hours = hours < 10 ? "0" + hours : hours;
+      minutes = minutes < 10 ? "0" + minutes : minutes;
+      seconds = seconds < 10 ? "0" + seconds : seconds;
+
       // console.log(hours, minutes, seconds);
-      numbersDiv.innerHTML = hours + ":" + minutes + ":" + seconds;
+      horloge.innerHTML = hours + ":" + minutes + ":" + seconds;
     }
   }
 
@@ -79,6 +85,8 @@ document.addEventListener("DOMContentLoaded", function loaded() {
       //   console.log(time, typeof time);
       timesUp = setInterval(decreaseTime, 1000);
       delete button.dataset.switch;
+      numbersDiv.style.display = "none";
+      horloge.style.display = "block";
     } else {
       button.innerHTML = "start";
       button.dataset.switch = "on";

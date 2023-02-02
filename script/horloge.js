@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function loaded() {
 
     let clock = heure + ":" + minutes + ":" + secondes;
 
-    let horlogeContainer = document.querySelector("#horloge");
+    let horlogeContainer = document.querySelector(".horloge");
+    horlogeContainer.style.display = "block";
     horlogeContainer.innerHTML = clock;
 
     // setTimeout(function, milliseconds, param1, param2, ...) -> lance une fonction après X millisecondes, vu qu'on veut l'update toutes les secondes : on met 1000ms (= 1s)

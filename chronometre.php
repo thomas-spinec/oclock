@@ -24,7 +24,7 @@
             <h1>Chronomètre</h1>
             <div id="chrono">
 
-                <time>00:00:00</time>
+                <time class="horloge">00:00:00</time>
                 <div id="buttonsChrono">
                     <button id="buttonChrono" data-switch="on">go</button>
                     <button id="resetChrono">reset</button>

@@ -28,6 +28,7 @@
             </div>
             <div id="minuteur">
                 <form action="" method="post">
+                    <div class="horloge"></div>
                     <div id="numbersTimer">
                         <input id="hours" name="hours" value="00" type="number" />
                         <p>:</p>
@@ -37,8 +38,8 @@
                     </div>
                     <button id="buttonMinuteur" type="submit" name="submitMinuteur" data-switch="on">on</button>
                 </form>
-                <button id="reset">Reset</button>
             </div>
+            <button id="reset">Reset</button>
         </section>
     </main>
 

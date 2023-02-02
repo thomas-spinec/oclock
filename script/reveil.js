@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function loaded() {
         alarme.innerHTML = heureAlarme + ", " + raisonAlarme;
         passé.appendChild(alarme);
         audio.play();
-        audio.currentTime = 20;
+        audio.currentTime = 89;
         popUp.style.display = "flex";
         popUpHeure.innerHTML = heureAlarme;
         popUpText.innerHTML = raisonAlarme;

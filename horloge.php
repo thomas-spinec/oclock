@@ -22,7 +22,7 @@
     <main>
         <section class="centrage" id="main">
             <h1>Horloge</h1>
-            <div id="horloge">
+            <div class="horloge">
             </div>
         </section>
     </main>
