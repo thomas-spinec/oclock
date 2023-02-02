@@ -15,7 +15,7 @@
     <header>
         <section class="centrage" id="header">
             <h1>O-clock</h1>
-            <p>L'horloge multifonction à portée de souris!</p>
+            <p id="slogan">L'horloge multifonction à portée de souris!</p>
         </section>
     </header>
     <main>

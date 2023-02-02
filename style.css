@@ -99,10 +99,12 @@ header p {
   align-items: center;
 }
 
-/* ***********************
-    FOOTER
-*********************** */
-
+@media all and (max-device-width: 675px) {
+  #slogan {
+    display: none;
+  }
+}
+/* *********************** FOOTER *********************** */
 footer {
   background-color: #fff;
   color: #333;
