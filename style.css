@@ -17,6 +17,13 @@ body {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
   cursor: pointer;
@@ -106,7 +113,7 @@ footer {
   bottom: 0;
 }
 
-#perso {
+.flex img {
   height: 12vh;
   width: auto;
 }

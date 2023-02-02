@@ -51,9 +51,11 @@
     </main>
 
     <footer>
-        <section class="centrage">
-            <img id="perso" src="img/Logo.png" alt="Thomas Spinec">
+        <section class="centrage flex">
+            <a href="https://thomas-spinec.students-laplateforme.io/"><img id="perso" src="img/Logo.png" alt="lien vers mon portfolio"></a>
+            <a href="https://github.com/thomas-spinec/oclock"><img src="img/github.png" alt="lien vers le repo"></a>
         </section>
+    </footer>
 </body>
 
 </html>
