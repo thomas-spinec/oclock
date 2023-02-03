@@ -30,11 +30,11 @@
                 <form action="" method="post">
                     <div class="horloge"></div>
                     <div id="numbersTimer">
-                        <input id="hours" name="hours" value="00" type="number" />
+                        <input type="number" put id="hours" name="hours" value="00" min="00" />
                         <p>:</p>
-                        <input id="minutes" name="minutes" value="00" type="number" />
+                        <input type="number" id="minutes" name="minutes" value="00" min="00" />
                         <p>:</p>
-                        <input id="seconds" name="seconds" value="00" type="number" />
+                        <input type="number" id="seconds" name="seconds" value="00" min="00" />
                     </div>
                     <button id="buttonMinuteur" type="submit" name="submitMinuteur" data-switch="on">on</button>
                 </form>
