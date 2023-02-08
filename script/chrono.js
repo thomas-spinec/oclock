@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function loaded() {
     // chronometre.removeChild(listTours)
 
     buttonChrono.dataset.switch = "on";
+    buttonChrono.innerHTML = "go";
   }
 
   resetDebut();
@@ -97,18 +98,8 @@ document.addEventListener("DOMContentLoaded", function loaded() {
     }
   });
 
-  buttonReset.addEventListener("click", function reset(event) {
+  buttonReset.addEventListener("click", function (event) {
     event.preventDefault();
-
-    clearInterval(timesRunning);
-
-    timeChrono[0].innerHTML = "00:00:00";
-    timePlus = 0;
-    timePaused = 0;
-
-    Tours.innerHTML = "";
-    // chronometre.removeChild(listTours)
-
-    buttonChrono.dataset.switch = "on";
+    resetDebut();
   });
 });
