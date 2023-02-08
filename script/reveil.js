@@ -119,6 +119,8 @@ document.addEventListener("DOMContentLoaded", function loaded() {
     e.preventDefault();
     compareHeure();
     tempsRestant();
+    horaire.value = "";
+    text.value = "";
   });
 
   // disparition du popUp et arrêt de l'alarme lors du click
